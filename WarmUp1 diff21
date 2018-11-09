@@ -1,0 +1,5 @@
+def diff21(n):
+  diffrence=21-n
+  if n>21:
+    diffrence=(n-21)*2
+  return diffrence
