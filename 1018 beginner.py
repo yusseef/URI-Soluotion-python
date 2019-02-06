@@ -6,7 +6,7 @@ mod100 = value%100
 if(mod100 == value):
     result += '%d nota(s) de R$ 100,00\n' % 0
 else:
-    result += '%d nota(s) de R$ 100,00\n' % (valor / 100)
+    result += '%d nota(s) de R$ 100,00\n' % (value / 100)
 
 mod50 = mod100%50
 if(mod50 == mod100):
